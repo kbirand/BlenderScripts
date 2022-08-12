@@ -1,0 +1,35 @@
+{
+    "rokoko_custom_names": true,
+    "version": 1,
+    "bones": {
+        "custom_bone_ball_r": [
+            "ball_r",
+            "ball_r"
+        ],
+        "custom_bone_ball_l": [
+            "ball_l",
+            "ball_l"
+        ],
+        "custom_bone_thumb_03_l_l": [
+            "thumb_03_l_l",
+            "thumb_03_l"
+        ],
+        "custom_bone_index_01_l": [
+            "index_01_l",
+            "index_01_l"
+        ],
+        "custom_bone_thumb_03_r_r": [
+            "thumb_03_r_r",
+            "thumb_03_r"
+        ],
+        "custom_bone_index_01_r": [
+            "index_01_r",
+            "index_01_r"
+        ],
+        "custom_bone_neck_01": [
+            "neck_01",
+            "neck_01"
+        ]
+    },
+    "shapes": {}
+}
