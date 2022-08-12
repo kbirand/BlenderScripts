@@ -14,7 +14,6 @@ selectedObj = bpy.context.selected_objects
 print(selectedObj)
 
 
-
 #Set Owner Rig
 ownerBoneList = selectedObj[0].pose.bones
 #Set Target Rig
