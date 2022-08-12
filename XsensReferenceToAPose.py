@@ -12,7 +12,7 @@ def print(data):
                 bpy.ops.console.scrollback_append(override, text=str(data), type="OUTPUT")   
 
 
-ob = bpy.data.objects['Reference']
+ob = bpy.data.objects['Reference.001']
 bpy.context.view_layer.objects.active = ob
 bpy.ops.object.mode_set(mode='POSE')
 
@@ -24,3 +24,6 @@ ob.pose.bones['lowerarm_l'].rotation_quaternion = [0.944,-0.330,0,0]
 ob.pose.bones['lowerarm_r'].rotation_quaternion = [0.847,0.330,0,0]
 ob.pose.bones['thigh_l'].rotation_quaternion = [1,0,-0.030,-0.044]
 ob.pose.bones['thigh_r'].rotation_quaternion = [1,0,0.030,0.044]
+ob.pose.bones['hand_l'].rotation_quaternion = [1,0.063,0.135,0.126]
+ob.pose.bones['hand_r'].rotation_quaternion = [1,0.063,-0.135,0.126]
+ob.pose.bones['thumb_01_r'].rotation_quaternion = [1,0.063,-0.135,0.126]
