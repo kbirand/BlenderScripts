@@ -31,6 +31,7 @@ ob.pose.bones['foot_l'].rotation_quaternion = [1,0,-0.017,0]
 ob.pose.bones['calf_l'].rotation_quaternion = [1,-0.048,-0.0,-0.037]
 ob.pose.bones['calf_r'].rotation_quaternion = [1,-0.048,-0.0,-0.037]
 
+
 bpy.ops.object.mode_set(mode='OBJECT')
 ob = bpy.data.objects['root']
 bpy.context.view_layer.objects.active = ob
